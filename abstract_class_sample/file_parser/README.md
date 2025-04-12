@@ -18,16 +18,13 @@ The `file_parser` package provides a flexible and extensible framework for file 
 
 ## Installation
 
-1. Clone the repository or download the source files:
+1. Clone the repository or download the source files.
+2. Navigate to the package parent directory.
+3. Install the package and dependencies:
+
 ```bash
    git clone https://github.com/dm-advisor/python_patterns.git
-```
-2. Navigate to the package parent directory: 
-```bash
    cd ~/python_patterns/abstract_class_sample
-```
-3. Install the package and dependencies:
-```bash
    pip install .
 ```
 
@@ -36,6 +33,7 @@ The `file_parser` package provides a flexible and extensible framework for file 
 ## Execution
 
 To run the main() function in the package type the following command in a terminal:
+
 ```bash
    cd ~/python_patterns/abstract_class_sample
    run-file-parser
@@ -44,7 +42,9 @@ To run the main() function in the package type the following command in a termin
 ---
 
 ## Usage
+
 Example: Parsing CSV Files
+
 ```python
 from file_parser.csv_parser import CSVParser
 
@@ -55,10 +55,12 @@ csv_parser = CSVParser()
 result = csv_parser.parse_and_process("Your CSV file path and name")
 print(result)  # Output: {'row_count': <number_of_rows>}
 ```
+
 ---
 
-## Package File Structure 
-```
+## Package File Structure
+
+```plaintext
 file_parser/
 ├── __init__.py          # Package initialization
 ├── abstract_parser.py   # Base abstract class for file parsers
@@ -72,17 +74,21 @@ file_parser/
 ---
 
 ## Dependencies
+
 The following Python libraries are required:
 None
 If any dependencies, install them using:
+
 ```bash
    pip install -r requirements.txt
 ```
 
 ---
 
-# Package Build
+## Package Build
+
 To build the package enter the following commands in a terminal:
+
 ```bash
    cd ~/python_patterns/abstract_class_sample
    python setup.py sdist
@@ -92,6 +98,7 @@ To build the package enter the following commands in a terminal:
 ---
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
