@@ -20,7 +20,7 @@ The `file_parser` package provides a flexible and extensible framework for file 
 
 1. Clone the repository or download the source files:
 ```bash
-   git clone https://github.com/yourusername/file_parser.git
+   git clone https://github.com/dm-advisor/python_patterns.git
 ```
 2. Navigate to the package parent directory: 
 ```bash
