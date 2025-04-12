@@ -92,8 +92,11 @@ To build the package enter the following commands in a terminal:
 ```bash
    cd ~/python_patterns/abstract_class_sample
    python setup.py sdist
-   pip install dist/file_parser-0.1.tar.gz
+   pip install dist/file_parser-x.x.tar.gz
 ```
+Note 1: In the above pip command, replace x.x with the correct package version as specified in the setup.py file.
+
+Note 2: To see information about the installed package use: ``` pip show file_parser ```
 
 ---
 

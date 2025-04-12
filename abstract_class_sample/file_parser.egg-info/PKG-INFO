@@ -1,13 +1,15 @@
-Metadata-Version: 2.4
-Name: file_parser
-Version: 0.1
+Metadata-Version: 2.1
+Name: file-parser
+Version: 1.0
 Summary: A Python package for parsing and processing files
-Author: Hooman
+Home-page: https://github.com/hooman/file_parser
+Author: dm-advisor
+Author-email: datamunge.advisor@gmail.com
+License: MIT
+Keywords: file parsing,data processing,file handling
+Platform: any
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
-Dynamic: author
-Dynamic: classifier
-Dynamic: requires-python
-Dynamic: summary
+License-File: LICENSE
