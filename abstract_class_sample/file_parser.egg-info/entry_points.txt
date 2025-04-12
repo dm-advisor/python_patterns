@@ -1,0 +1,2 @@
+[console_scripts]
+run-file-parser = file_parser.main:main

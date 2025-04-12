@@ -1,0 +1,13 @@
+setup.py
+file_parser/__init__.py
+file_parser/abstract_framework.py
+file_parser/abstract_parser.py
+file_parser/abstract_subclass.py
+file_parser/main.py
+file_parser.egg-info/PKG-INFO
+file_parser.egg-info/SOURCES.txt
+file_parser.egg-info/dependency_links.txt
+file_parser.egg-info/entry_points.txt
+file_parser.egg-info/top_level.txt
+file_parser/sample_data/example.csv
+file_parser/sample_data/example.json
